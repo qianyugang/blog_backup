@@ -13,11 +13,18 @@
     "hexo-generator-feed": "^1.2.2",
     "hexo-generator-index": "^0.2.0",
     "hexo-generator-tag": "^0.2.0",
+    "hexo-helper-qrcode": "^1.0.2",
+    "hexo-migrator-rss": "^0.1.4",
+    "hexo-migrator-wordpress": "^1.0.0",
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-jade": "^0.3.0",
     "hexo-renderer-marked": "^0.3.0",
+    "hexo-renderer-pug": "^1.0.0",
     "hexo-renderer-sass": "^0.3.2",
     "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.2.0"
+    "hexo-server": "^0.2.0",
+    "hnpm": "^1.1.0",
+    "i": "^0.3.6",
+    "npm": "^6.14.4"
   }
 }
