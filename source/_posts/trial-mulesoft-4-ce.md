@@ -5,6 +5,7 @@ comments: true
 categories: 与代码
 tags: 
 	- iPaaS
+	- Mulesoft
 
 date: 2020-07-08
 ---
@@ -63,16 +64,24 @@ services:
 </configuration>
 ```
 
-其中`<muleHome>`的地址需要替换为步骤1中本地运行的 mule-runtime 地址。如果在之前已经运行的项目中有端口冲突，需要把`say-hello-mule4-docker/src/main/mule/say-hello-mule4-docker.xml`文件中的端口号修改为可用端口号，例如可将`8081`修改为`8083`。
+其中`<muleHome>`的地址需要替换为步骤1中本地运行的 mule-runtime 地址。如果在之前已经运行的项目中有端口冲突，需要把
+```
+say-hello-mule4-docker/src/main/mule/say-hello-mule4-docker.xml
+```
+
+文件中的端口号修改为可用端口号，例如可将`8081`修改为`8083`。
 在打包过程中需要保证 runtime 是正在运行的，然后执行如下命令打包：`mvn clean package`
 打包完成后将在`target`目录得到`xxxxxx.jar`文件。
+
 ### 3. 上传服务器
+
 把步骤2中打包完成后的`xxxxxx.jar`文件上传到服务器的`/opt/mule/apps`目录中：
 ```
 scp xxxxx.jar root@10.249.2.23:/opt/mule/apps
 ```
     
 ### 4. 重启runtime的docker容器
+
 ```
 ssh root@10.249.2.23 "cd /opt/mule; docker-compose restart"
 ```

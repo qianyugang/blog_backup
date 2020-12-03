@@ -1,5 +1,5 @@
 ---
-title: 在 mulesoft 4 CE版本 使用 Spring Module
+title: 在 Mulesoft 4 CE版本 使用 Spring Module
 toc: true
 comments: true
 categories: 与代码

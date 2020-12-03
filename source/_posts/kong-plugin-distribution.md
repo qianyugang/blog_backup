@@ -88,10 +88,13 @@ $ tree <plugin-name>
     ```
     lua_package_path = /<path-to-plugin-location>/?.lua;
     ```
-    继续:   
-    4.`/<path-to-plugin-location>`是包含提取的存档的目录的路径。它应该是归档中`kong`目录的位置。  
-    5.`?`是一个占位符，将被`kong.plugins`替换。`<plugin-name>`当Kong将尝试加载你的插件。   
-    6.`;;`“默认Lua路径”的占位符。不要改变它。  
+		继续:   
+
+4. `/<path-to-plugin-location>`是包含提取的存档的目录的路径。它应该是归档中`kong`目录的位置。  
+
+5. `?`是一个占位符，将被`kong.plugins`替换。`<plugin-name>`当Kong将尝试加载你的插件。   
+
+6. `;;`“默认Lua路径”的占位符。不要改变它。  
     例如:  
     插件位于文件系统上，使处理程序文件为：
     ```
@@ -101,16 +104,13 @@ $ tree <plugin-name>
     ```
     lua_package_path = /usr/local/custom/?.lua;;
     ```
-    
     多个插件：
-    
     如果您希望以这种方式安装两个或更多自定义插件，可以将变量设置为：
     ```
      lua_package_path = /path/to/plugin1/?.lua;/path/to/plugin2/?.lua;;
     ```
-    
-    	7.`;`是目录之间的分隔符。
-    	8.`;;`仍然意味着“默认的Lua路径”。
+7. `;`是目录之间的分隔符。
+8. `;;`仍然意味着“默认的Lua路径”。
 
 	注意：您还可以通过其等效的环境变量`KONG_LUA_PACKAGE_PATH`设置此属性。
     

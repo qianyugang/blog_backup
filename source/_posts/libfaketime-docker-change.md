@@ -102,7 +102,8 @@ pkill php-fpm ; /usr/local/php/sbin/php-fpm
 加入yaml，重启pod（会自动重启相应服务php、kong、nginx、go等），此时faketime生效。
 
 
-参考：
+## 参考
+
 - https://www.jianshu.com/p/3cfd7e4d8c76
 - http://www.eryajf.net/2888.html
 - https://blog.csdn.net/u012375924/article/details/100068898
