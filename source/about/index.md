@@ -26,4 +26,4 @@ date: 2018-02-07
 
 一个注册于很久之前的公众号再次捡起来了，里面会写一写原创文章，当然博客也会有，不嫌烦的话可以关注一波~~
 
-![](http://qiniu.102no.com/102no-qrcode-g.png)
+![](https://i.loli.net/2020/11/16/7kT8gNZjuI3Kmex.png)
