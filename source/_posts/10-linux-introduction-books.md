@@ -14,6 +14,16 @@ date: 2020-08-13
 
 Linux 目前是应用最广泛的基于Unix的服务器操作系统，这篇文章主要介绍了一些想要学习Linux的入门书籍，适合刚开始学习，或者想要加深一些Linux基础知识的查看。本篇文章主要推荐Linux操作入门书籍，后续会有深入学习Linux系列。
 
+家庭读书系列可点击查看：
+
+- [10本家庭医疗必备书籍](https://102no.com/2020/04/23/10-essential-books-for-famil-medicine/)
+- [10本春节过年回家适合和小朋友一起看的绘本书推荐](https://102no.com/2021/02/05/10-children-picture-book/)
+
+算法学习书籍推荐系列可点击查看：
+
+- [10本算法入门书籍推荐](https://102no.com/2020/12/03/10-algorithm-books/)
+- [10本算法深入学习书籍推荐](https://102no.com/2021/01/25/10-in-depth-algorithm-books/)
+
 Linux书籍推荐系列可点击查看:
 
 - [10本Linux操作入门书籍推荐](https://102no.com/2020/08/13/10-linux-introduction-books/)
