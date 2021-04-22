@@ -1,5 +1,5 @@
 ---
-title: Kong 2.4 发布了！
+title: Kong 2.4 正式发布！
 toc: true
 comments: true
 categories: 与代码
