@@ -67,11 +67,17 @@ Go 语言学习书籍推荐系列可点击查看：
 
 [【点击查看详情】](https://union-click.jd.com/jdc?e=&p=AyIGZRNdEgMTDlEbXCUCEwZWGlsQAxsCURldEjJWWA1FBCVbV0IUWVALHEpCAUdETlcNVQtHRRUDEwRUG14UCxcDVx1cCltXWwgrD3Z3ewcGRw92W0ZPCWMYDwZFAwBHOxkOIgZlG1oUARADVxxZFDIiB1IrGnsHEw9SHmsUMhIAVR9TEQEbB1YZUhIyFQdcK4y8lsWhwcPpjNaaioOC8MGojjdlK1glMiIHZRhrV2wSAgASCUYFR1dVS1MQCxcDBRxdQAMXBAEZUhQHGgcCT2sXAxMDXA%3D%3D)
 
-## 《Go程序设计语言》
+## 《Go 语法树入门》
 
-![Go程序设计语言.png](https://i.loli.net/2021/03/10/jDXsvSe3TpoF7YI.png)
+本书为开源一本开源图书。Go语法树入门 —— 开启自制编程语言和编译器之旅！
 
-本书由《C程序设计语言》的作者Kernighan和谷歌公司Go团队主管Alan Donovan联袂撰写，是学习Go语言程序设计的指南。本书适合作为计算机相关专业的教材，也可供Go语言爱好者阅读。
+- 在线阅读地址：https://github.com/chai2010/go-ast-book
+
+作者：
+
+- 柴树杉
+- 史斌
+- 丁尔男
 
 
 ## [《Go语言编程之旅》](https://union-click.jd.com/jdc?e=&p=AyIGZRprFQEVDlEYXh0yVlgNRQQlW1dCFFlQCxxKQgFHRE5XDVULR0UVARUOURheHR1LQglGaxZ1a38sUB50YVIdClBddn0XRktiJFMOHjdUK1sUAxEFURlcFwMiN1Uca0NsEgZUGloUBxICVitaJQIVB1ETXxYAEARRH1glBRIOZczygdW0k42pwsGKn9HMsI%2B%2FniI3ZRhrJTISN1YrGXsDF1IHE1sQVUBXXR5eFwURVFwYUxAKGwFWSA8UV0EPUitZFAMWDg%3D%3D)
@@ -113,17 +119,18 @@ Go 语言学习书籍推荐系列可点击查看：
 
 - 李文塔，现就职于腾讯，FiT（前身为财付通）支付账户核心DBA，高级工程师。
 
-## 《Go语言程序设计》
+## 《Go 语言设计与实现》
 
-![Go语言程序设计.png](https://i.loli.net/2021/03/10/Vg3t29TG41fiUy8.png)
 
-本书是国外最经典的Go语言著作，Go语言编程的先驱者Mark Summerfield的实践经验总结。这是一本Go语言实战指南，帮你了解Go语言，按Go语言的方式思考，以及使用Go语言来编写高性能软件。
+本书为一本开源图书。
 
-作者展示了如何编写充分利用Go语言突破性的特性和惯用法的代码，以及Go语言在其他语言之上所做的改进，并着重强调了Go语言的关键创新。
+- 阅读地址：https://draveness.me/golang/
 
-作者：
+本书不建议没有任何编程经验的读者阅读，其目标读者包含以下几部分人群：
 
-- Mark Summerfield ， Qtrac公司创始人，独立的培训讲师、顾问、技术编辑，Go、Python、C++、Qt和PyQt方面的技术作家。
+- 学习过 Go 语言并且想要理解背后设计与实现的开发者；
+- 有过其他语言的开发经验，想要学习 Go 语言的开发者；
+
 
 ## 《Go语言高并发与微服务实战》
 
