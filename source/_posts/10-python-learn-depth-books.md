@@ -16,6 +16,23 @@ Python 是一种被广泛用于网站开发、数据处理和机器学习等领�
 
 值得注意的是Python的 2.X 版本和 3.X 版本有差别，注意自己需要学习的语言版本。
 
+Python学习系列可点击查看：
+
+- [10本 Python 零基础入门学习书籍推荐](http://localhost:4000/2021/04/06/10-python-learn-from-scratch-books/)
+- [10本 Python 入门学习书籍推荐](http://localhost:4000/2021/04/07/10-python-learn-guide-books/)
+- [10本 Python 深入学习书籍推荐](http://localhost:4000/2021/04/09/10-python-learn-depth-books/)
+
+算法学习书籍推荐系列可点击查看：
+
+- [10本算法入门书籍推荐](https://102no.com/2020/12/03/10-algorithm-books/)
+- [10本算法深入学习书籍推荐](https://102no.com/2021/01/25/10-in-depth-algorithm-books/)
+
+Linux书籍推荐系列可点击查看:
+
+- [10本Linux操作入门书籍推荐](https://102no.com/2020/08/13/10-linux-introduction-books/)
+- [10本Linux进阶书籍推荐](https://102no.com/2020/08/17/10-linux-advanced-books/)
+- [10本Linux内核书籍推荐](https://102no.com/2020/09/01/10-linux-kernel-books/)
+
 ## 《流畅的Python》
 
 本书致力于帮助Python开发人员挖掘这门语言及相关程序库的优秀特性，避免重复劳动，同时写出简洁、流畅、易读、易维护，并且具有地道Python风格的代码。本书尤其深入探讨了Python语言的高级用法，涵盖数据结构、Python风格的对象、并行与并发，以及元编程等不同的方面。

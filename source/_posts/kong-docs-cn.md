@@ -28,7 +28,18 @@ date: 2019-06-27
 todo：
 
 - 目前文档中的超链接都是链接的英文原文，后续会慢慢改成中文内链。
-- 会在每一页文档里面附上单独的英文原文链接，以便做对照。
-- 会添加kong自带的插件文档。
+- ~~会在每一页文档里面附上单独的英文原文链接，以便做对照。~~
+- ~~会添加kong自带的插件文档。~~
 
-本文档是基于 https://docs.konghq.com/1.1.x/ 1.1.x 版本，目前官网已经更新至 1.2.x 版本，如果使用的最新版本，请查看 https://docs.konghq.com 并注意差别。   
+本文档是基于 https://docs.konghq.com/gateway-oss/1.1.x/  `1.1.x` 版本，目前官网已经更新至 `2.4.x` 版本，如果使用的最新版本，请查看 https://docs.konghq.com/gateway-oss/ 并注意差别。
+
+- https://docs.konghq.com/gateway-oss/1.0.x/
+- https://docs.konghq.com/gateway-oss/1.2.x/
+- https://docs.konghq.com/gateway-oss/1.3.x/
+- https://docs.konghq.com/gateway-oss/1.4.x/
+- https://docs.konghq.com/gateway-oss/1.5.x/
+- https://docs.konghq.com/gateway-oss/2.0.x/
+- https://docs.konghq.com/gateway-oss/2.1.x/
+- https://docs.konghq.com/gateway-oss/2.2.x/
+- https://docs.konghq.com/gateway-oss/2.3.x/
+- https://docs.konghq.com/gateway-oss/2.4.x/
