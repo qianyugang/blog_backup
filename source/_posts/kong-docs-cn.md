@@ -43,3 +43,5 @@ todo：
 - https://docs.konghq.com/gateway-oss/2.2.x/
 - https://docs.konghq.com/gateway-oss/2.3.x/
 - https://docs.konghq.com/gateway-oss/2.4.x/
+- https://docs.konghq.com/gateway-oss/2.5.x/
+
