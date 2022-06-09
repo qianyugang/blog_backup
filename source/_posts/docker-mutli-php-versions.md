@@ -10,7 +10,7 @@ tags:
 date: 2022-02-08
 ---
 
-可直接运行的多版本PHP共存的Docker环境，目前支持php5.6以及php7.2共存。
+可直接运行的多版本PHP共存的Docker环境，目前支持 php5.6 / php7.2 / php7.4 共存。
 已经在公司推广使用，自己目前的开发环境就用的这一套，且已用一段时间。
 
 
@@ -20,33 +20,39 @@ https://github.com/qianyugang/docker-mutli-php-versions
 
 ## 文件结构
 
+
 ```
 ├── conf //配置文件
 │   ├── nginx
-│   │   ├── conf.d
-│   │   │   ├── php56site.com.conf
-│   │   │   └── php72site.com.conf
-│   │   └── nginx.conf
-│   └── php
-│       ├── php-fpm.d
-│       │   └── www.conf
-│       └── php.ini
+│   │   ├── conf.d
+│   │   │   ├── php56site.com.conf
+│   │   │   ├── php72site.com.conf
+│   │   │   └── php74site.com.conf
+│   │   └── nginx.conf
+│   └── php
+│       ├── php-fpm.d
+│       │   └── www.conf
+│       └── php.ini
 ├── docker-compose.yml
 ├── log //日志文件
 │   ├── nginx
-│   │   ├── access.log
-│   │   └── error.log
-│   └── php-fpm
+│   │   ├── access.log
+│   │   └── error.log
+│   └── php-fpm
 ├── php
-│   ├── php56
-│   │   └── Dockerfile
-│   └── php72
-│       └── Dockerfile
+│   ├── php56
+│   │   └── Dockerfile
+│   ├── php72
+│   │   └── Dockerfile
+│   └── php74
+│       └── Dockerfile
 ├── readme.md
-└── site //网站文件
+└── site //网站目录
     ├── php56site
-    │   └── index.php
-    └── php72site
+    │   └── index.php
+    ├── php72site
+    │   └── index.php
+    └── php74site
         └── index.php
 ```
 
@@ -76,6 +82,8 @@ docker-composer restart nginx
 docker-compose exec php56 /bin/bash
 
 docker-compose exec php72 /bin/bash
+
+docker-compose exec php74 /bin/bash
 ```
 
 ## 注意事项
