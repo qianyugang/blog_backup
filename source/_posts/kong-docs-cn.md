@@ -12,7 +12,7 @@ tags:
 date: 2019-06-27
 ---
 
-由于项目的原因，最近的几个月一直在学习微服务的API网关 Kong ，在这里做一个简单介绍，是一个云原生，高效，可扩展的分布式 API 网关。 自 2015 年在 github 开源后，广泛受到关注，目前已收获 1.68w+ 的 star，其核心价值在于高性能和可扩展性。由于对项目的积极维护，Kong被广泛用于从初创公司到全球5000强以及政府机构的生产中。从技术角度来说，Kong是基于Openresty的一个莹莹，Openresty是基于Nginx的，使用的语言是Lua。
+由于项目的原因，最近的几个月一直在学习微服务的API网关 Kong ，在这里做一个简单介绍，是一个云原生，高效，可扩展的分布式 API 网关。 自 2015 年在 github 开源后，广泛受到关注，目前已收获 1.68w+ 的 star，其核心价值在于高性能和可扩展性。由于对项目的积极维护，Kong被广泛用于从初创公司到全球5000强以及政府机构的生产中。从技术角度来说，Kong是基于Openresty的一个应用，Openresty是基于Nginx的，使用的语言是Lua。
 
 ## 项目地址
 
@@ -32,22 +32,15 @@ todo：
 - ~~会在每一页文档里面附上单独的英文原文链接，以便做对照。~~
 - ~~会添加kong自带的插件文档。~~
 
-本文档是基于`1.0.x` 版本，目前官网已经更新至 `3.0.x` 版本，如果使用的最新版本，请查看 https://docs.konghq.com/gateway/ 并注意差别。
+本文档是基于`1.0.x` 版本，目前官网已经更新至 `3.8.x` 版本，如果使用的最新版本，请查看 https://docs.konghq.com/gateway/ 并注意差别。
 
 ## 版本说明
 
 - 官网最新版本：
 
-[![](https://img.shields.io/badge/Kong-3.0.x-green)](https://docs.konghq.com/gateway/3.0.x/)
+	[![](https://img.shields.io/badge/Kong-3.8.x-green)](https://docs.konghq.com/gateway/3.8.x/)
 
-- 官网维护版本：
+- 其他版本查看：
 
-| 
-|  ----  | ---- | ---- | ---- | ---- |
-|[![](https://img.shields.io/badge/Kong-2.1.x-blue)](https://docs.konghq.com/gateway-oss/2.1.x/)| [![](https://img.shields.io/badge/Kong-2.2.x-blue)](https://docs.konghq.com/gateway-oss/2.2.x/) |[![](https://img.shields.io/badge/Kong-2.3.x-blue)](https://docs.konghq.com/gateway-oss/2.3.x/) |  [![](https://img.shields.io/badge/Kong-2.4.x-blue)](https://docs.konghq.com/gateway-oss/2.4.x/)|[![](https://img.shields.io/badge/Kong-2.5.x-blue)](https://docs.konghq.com/gateway-oss/2.5.x/)|[![](https://img.shields.io/badge/Kong-2.6.x-blue)](https://docs.konghq.com/gateway/2.6.x/)|[![](https://img.shields.io/badge/Kong-2.7.x-blue)](https://docs.konghq.com/gateway/2.7.x/)|[![](https://img.shields.io/badge/Kong-2.8.x-blue)](https://docs.konghq.com/gateway/2.8.x/)|
+	https://github.com/qianyugang/kong-docs-cn/blob/master/README.md#版本说明
 
-- 历史存档版本：
-
-| 
-|  ----  | ---- | ---- | ---- | ---- |
-| [![](https://img.shields.io/badge/Kong-1.0.x-inactive)](https://legacy-gateway--kongdocs.netlify.app/gateway-oss/1.0.x/)| [![](https://img.shields.io/badge/Kong-1.1.x-inactive)](https://legacy-gateway--kongdocs.netlify.app/gateway-oss/1.1.x/)| [![](https://img.shields.io/badge/Kong-1.2.x-inactive)](https://legacy-gateway--kongdocs.netlify.app/gateway-oss/1.2.x/)| [![](https://img.shields.io/badge/Kong-1.3.x-inactive)](https://legacy-gateway--kongdocs.netlify.app/gateway-oss/1.3.x/)| [![](https://img.shields.io/badge/Kong-1.4.x-inactive)](https://legacy-gateway--kongdocs.netlify.app/gateway-oss/1.4.x/)| [![](https://img.shields.io/badge/Kong-1.5.x-inactive)](https://legacy-gateway--kongdocs.netlify.app/gateway-oss/1.5.x/)| [![](https://img.shields.io/badge/Kong-2.0.x-inactive)](https://legacy-gateway--kongdocs.netlify.app/gateway-oss/2.0.x/) | 

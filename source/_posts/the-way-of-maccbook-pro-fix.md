@@ -1,10 +1,11 @@
 ---
-title: MacBook Pro 修复之路
+title: MacBook Pro 修复之路💻
 toc: true
 comments: true
 categories: 我是修电脑的
 tags: 
 	- 生活经验
+	- Apple
 
 date: 2022-07-22
 ---

@@ -96,7 +96,7 @@ Nginx (『engine x』) 是俄罗斯人Igor Sysoev编写的一款高性能 HTTP �
 - https://tengine.taobao.org/book/
 
 
-##《Nginx实战：基于Lua语言的配置、开发与架构详解》
+## 《Nginx实战：基于Lua语言的配置、开发与架构详解》
 
 本书主要讲解了Nginx在反向代理和应用开发中的作用，阅读本书可以了解Nginx在互联网开发中扮演的多个角色，充分利用这些角色的各项功能有助于提升服务的整体性能。
 
